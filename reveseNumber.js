@@ -1,6 +1,7 @@
 function reverseNumber(number) {
   // Start Code Here
-
+  number = number + "";
+  return parseFloat(number.split("").reverse().join(""));
 }
 
 console.log(reverseNumber(876)); //output: 678
